@@ -1,0 +1,129 @@
+body {
+  margin: 20px;
+  border-top: 2px solid #636C6D;
+  border-bottom: 2px solid #636C6D;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapper {
+  background-color: #D2D9E9;
+}
+
+header {
+  background: -webkit-linear-gradient(top,  #afbac6 0%,#7585a6 50%,#6a7ba0 51%,#5E6C8E 100%);
+  line-height: 80px;
+  border-top: 2px solid #C8D4DA;
+  font-size: 28px;
+  color: white;
+  text-shadow: 0px 1px 1px #222529;
+}
+
+.time, .message-left, .message-right {
+  border-bottom: 2px solid #B7BDCD;
+}
+
+.pop-up {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.message-left .pop-up {
+  border-color: #92979C;
+  border-top-color: #7F7F7F;
+  box-shadow: 0 1px 1px #55565B;
+  background: -webkit-linear-gradient(top,
+  #7F7F7F 0,
+  #D8D8D8 20px);
+}
+
+.message-right .pop-up {
+  float: right;
+  border-color: #689934;
+  border-top-color: #2C4430;
+  box-shadow: 0 1px 1px #435919;
+  background: -webkit-linear-gradient(top,
+  #56845e 0,
+  #89d41c 20px);
+}
+
+.top-blink {
+  height: 15px;
+  width: 210px;
+  top: 1px;
+  left: 5px;
+  border-radius: 14px 14px 7px 7px;
+  position: absolute;
+  background: -webkit-linear-gradient(top,
+  rgba(255,255,255,0.8) 0%,
+  rgba(255,255,255,0.5) 50%,
+  rgba(255,255,255,0.25) 100%);
+}
+
+.message-right:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.time {
+  color: #6B6E76;
+  line-height: 40px;
+}
+
+.pop-up {
+  position: relative;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: left;
+  margin: 40px;
+  width: 200px;
+}
+
+.arrow {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-width: 10px;
+  border-color: transparent;
+  border-style: solid;
+  bottom: 0;
+}
+
+.message-left .arrow {
+  border-bottom-color: #7F848A;
+  left: -13px;
+}
+
+.message-right .arrow {
+  border-bottom-color: #689934;
+  right: -10px;
+}
+
+.message-left .arrow-cover {
+  border-bottom-color: #D8D8D8;
+}
+
+.message-right .arrow-cover {
+  border-bottom-color: #89d41c;
+}
+
+.arrow-cover {
+  border-color: transparent;
+  border-style: solid;
+  position: absolute;
+  height: 0;
+  width: 0;
+  line-height: 0;
+  border-width: 10px;
+  top: -12px;
+}
+
+.message-left .arrow-cover {
+  left: -5px;
+}
+
+.message-right .arrow-cover {
+  right: -5px;
+}
