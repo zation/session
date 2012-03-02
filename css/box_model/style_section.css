@@ -1,0 +1,37 @@
+#triangle, #trapezoid-1, #trapezoid-2, #triangle-with-border {
+  display: inline-block;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+#triangle {
+  border-width: 100px;
+  width: 0;
+}
+
+#trapezoid-1 {
+  border-width: 100px;
+  width: 100px;
+}
+
+#trapezoid-2 {
+  border-width: 100px;
+  padding: 50px;
+  width: 0;
+}
+
+#triangle-with-border {
+  border-width: 100px;
+  width: 0;
+  position: relative;
+}
+
+#triangle-border {
+  border-color: transparent transparent white transparent;
+  border-style: solid;
+  border-width: 90px;
+  width: 0;
+  position: absolute;
+  top: -80px;
+  left: -90px;
+}

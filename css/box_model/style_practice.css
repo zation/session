@@ -1,5 +1,5 @@
-#section_final {
-  margin: 20px;
+#practice {
+  margin: 0;
   border-top: 2px solid #636C6D;
   border-bottom: 2px solid #636C6D;
   text-align: center;
@@ -8,17 +8,20 @@
 }
 
 .wrapper {
-  width: 500px;
   background-color: #D2D9E9;
 }
 
 header {
-  background: -webkit-linear-gradient(top,  #afbac6 0%,#7585a6 50%,#6a7ba0 51%,#5E6C8E 100%);
+  background: -webkit-linear-gradient(top,
+  #AFBAC6 0%,
+  #7585A6 50%,
+  #6A7BA0 51%,
+  #5E6C8E 100%);
   line-height: 80px;
   border-top: 2px solid #C8D4DA;
   font-size: 28px;
   color: white;
-  text-shadow: 0px 1px 1px #222529;
+  text-shadow: 0 1px 1px #222529;
 }
 
 .time, .message-left, .message-right {

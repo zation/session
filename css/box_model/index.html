@@ -3,14 +3,25 @@
 <html>
 <head>
   <title>Let's paint a triangle</title>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-  <link href="style_final.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style_section.css" rel="stylesheet">
+  <link href="style_practice.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
 <div id="impress">
-  <div id="section_final" class="step slide" data-x="-1500" data-y="0">
+
+  <div id="title" class="step" data-scale="2">
+    <h1>
+      <span class="back">Let's paint a</span>
+      triangle
+      <div class="triangle-small"></div>
+      <span class="front">by CSS</span>
+    </h1>
+    <span class="small">and after all ...</span>
+  </div>
+
+  <div id="practice" class="step" data-z="-3000" data-rotate="360">
     <div class="wrapper">
       <header>
         Xiao Ming
@@ -56,20 +67,40 @@
     </div>
   </div>
 
-  <div id="section_1" class="step slide" data-x="0" data-y="0">
+
+  <div id="box-model" class="step" data-x="1500">
+    <div>What's the box model?</div>
+    <img src="boxdim.png">
+
+    <div>
+      <a href="http://w3help.org/zh-cn/kb/006/">Something more...</a>
+    </div>
+  </div>
+
+  <div id="change" class="step" data-x="1500" data-y="-1000">
+    <div>Do you really understand it?</div>
+    <div>
+      Sometimes we can make fun if we change the <b class="rotate">usage</b>.
+    </div>
+  </div>
+
+  <div id="section-1" class="step" data-x="2200" data-y="-500" data-rotate="45">
     <div id="triangle"></div>
   </div>
 
-  <div id="section_2" class="step slide" data-x="1500" data-y="0">
-    <div id="trapezoid1"></div>
-    <div id="trapezoid2"></div>
+  <div id="section-2" class="step" data-x="2200" data-y="300" data-rotate="135">
+    <div id="trapezoid-1"></div>
+    <div id="trapezoid-2"></div>
   </div>
 
-  <div id="section_3" class="step slide" data-x="3000" data-y="0">
-    <div id="triangle_with_border">
-      <div id="triangle_border"></div>
+  <div id="section-3" class="step" data-x="1500" data-y="700" data-rotate="180">
+    <div id="triangle-with-border">
+      <div id="triangle-border"></div>
     </div>
   </div>
+
+  <div id="overview" class="step" data-scale="4"></div>
+
 </div>
 
 <script type="text/javascript" src="impress.js"></script>
