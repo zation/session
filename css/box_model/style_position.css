@@ -1,0 +1,25 @@
+.content {
+  background-color: #E37083;
+  padding: 20px;
+  position: static;
+}
+
+.relative {
+  position: relative;
+  padding: 20px;
+  background-color: #C6E471;
+  height: 100px;
+  opacity: 0.9;
+
+  top: 0;
+}
+
+.absolute {
+  position: absolute;
+  padding: 20px;
+  background-color: #61C4AE;
+  height: 100px;
+  opacity: 0.9;
+
+  top: 0;
+}
