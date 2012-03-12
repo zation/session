@@ -26,7 +26,7 @@
   position: relative;
 }
 
-#triangle-border {
+#triangle-cover {
   border-color: transparent transparent white transparent;
   border-style: solid;
   border-width: 90px;
