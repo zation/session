@@ -1,0 +1,70 @@
+.grail {
+  height: 180px;
+}
+
+#practise a {
+  display: inline-block;
+  padding: 10px;
+}
+
+#practise img {
+  width: 400px;
+  box-shadow: 0 1px 4px gray;
+}
+
+.clear:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+}
+
+aside,
+.center,
+header,
+footer {
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 1px 1px 1px white;
+}
+
+aside,
+.center {
+}
+
+header {
+  background-color: #FF6666;
+}
+
+footer {
+  background-color: #FF6FCF;
+}
+
+.left {
+  background-color: #CCFF66;
+}
+
+.right {
+  background-color: #FFCC66;
+}
+
+.center {
+  background-color: #66CCFF;
+}
+
+#section-1 aside,
+#section-1 .center {
+  float: left;
+}
+
+#section-1 .left {
+  width: 100px;
+}
+
+#section-1 .right {
+  width: 100px;
+}
+
+#section-1 .center {
+  width: 400px;
+}

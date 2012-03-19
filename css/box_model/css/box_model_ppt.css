@@ -1,0 +1,45 @@
+.back {
+  position: relative;
+  top: 50px;
+}
+
+.triangle-small {
+  border-color: transparent transparent #C8102D transparent;
+  border-style: solid;
+  display: inline-block;
+  border-width: 80px;
+  width: 0;
+}
+
+#practice {
+  opacity: 0;
+  -webkit-animation: hide 1.5s;
+}
+
+#practice.active {
+  -webkit-animation: display 1.5s;
+  opacity: 1;
+}
+
+#change.active .border {
+  -webkit-transform: scale(1.2);
+  -webkit-transition-delay: 0.75s;
+  text-shadow: 1px 1px 1px white;
+}
+
+#change.active .rotate {
+  -webkit-transition-delay: 1.75s;
+  -webkit-transform: rotate(180deg);
+}
+
+#change b {
+  display: inline-block;
+  -webkit-transition: 0.5s;
+}
+
+#position ul {
+  width: 220px;
+  margin: 0 auto 40px;
+  position: relative;
+  left: 40px;
+}

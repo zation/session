@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Let's get the Holy Grail!</title>
+  <link href="../../global/global_ppt.css" rel="stylesheet" type="text/css">
+  <link href="css/layout_ppt.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="impress">
+  <div id="title" class="step">
+    <h1>
+      <span class="back">Let's get a</span>
+      Holy Grail
+      <img class="grail" src="img/grail.jpg">
+      <span class="front">by CSS</span>
+    </h1>
+    <span class="small">and after all you can ...</span>
+  </div>
+
+  <div id="practise" class="step" data-x="1000">
+    <h2>Have a nice blog layout</h2>
+    <a target="_blank" href="http://www.lordlikely.com/">
+      <img src="img/Lord_Likely.jpg">
+    </a>
+    <a target="_blank" href="http://rin-wendy.com/">
+      <img src="img/Rin_Wendy.jpg">
+    </a>
+  </div>
+
+  <div id="float" class="step" data-x="2000">
+    <h2>What's CSS Float?</h2>
+    <ul>
+      <li>
+        Only left or right, not up and down.
+      </li>
+      <li>
+        To the end of the container.
+      </li>
+      <li>
+        The elements after will flow around it.
+      </li>
+      <li>
+        The elements before will not be affected.
+      </li>
+      <li>
+        If an element is floated to the right, a following text flows around it, to the left.
+      </li>
+    </ul>
+    <a href="http://www.qianduan.net/about-float.html">
+      Something more...
+    </a>
+  </div>
+
+  <div id="section-1" class="step" data-x="3000">
+    <h2>A simple 3 columns layout</h2>
+
+    <section class="container">
+      <header>
+        Header
+      </header>
+      <div class="content clear">
+        <aside class="left">
+          width: 100px
+        </aside>
+        <div class="center">
+          width: 400px<br>
+          width: 400px<br>
+          width: 400px<br>
+          width: 400px<br>
+          width: 400px<br>
+          width: 400px<br>
+          width: 400px<br>
+        </div>
+        <aside class="right">
+          width: 100px
+        </aside>
+      </div>
+      <footer>
+        Footer
+      </footer>
+    </section>
+  </div>
+
+
+
+  <div id="overview" class="step" data-scale="3" data-x="300"></div>
+</div>
+
+<script type="text/javascript" src="../../global/libs/impress.js"></script>
+<script type="text/javascript">
+  impress();
+</script>
+</body>
+</html>
