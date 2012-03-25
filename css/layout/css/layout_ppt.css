@@ -38,10 +38,12 @@ footer {
 
 .left {
   background-color: #CCFF66;
+  width: 100px;
 }
 
 .right {
   background-color: #FFCC66;
+  width: 150px;
 }
 
 .center {
@@ -53,24 +55,8 @@ footer {
   float: left;
 }
 
-#section-1 .left {
-  width: 100px;
-}
-
-#section-1 .right {
-  width: 150px;
-}
-
 #section-1 .center {
   width: 400px;
-}
-
-#section-2 .left {
-  width: 100px;
-}
-
-#section-2 .right {
-  width: 150px;
 }
 
 #section-2 .left {
@@ -84,4 +70,31 @@ footer {
 #section-2 .center {
   margin-left: 150px;
   margin-right: 200px;
+}
+
+#section-3 aside,
+#section-3 .center {
+  float: left;
+}
+
+#section-3 .content {
+  padding-left: 140px;
+  padding-right: 230px;
+}
+
+#section-3 .center {
+  width: 100%;
+}
+
+#section-3 aside {
+  position: relative;
+}
+
+#section-3 .left {
+  right: 170px;
+  margin-left: -100%;
+}
+
+#section-3 .right {
+  margin-right: -100%;
 }
