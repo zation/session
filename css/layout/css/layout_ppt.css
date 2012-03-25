@@ -28,10 +28,6 @@ footer {
   text-shadow: 1px 1px 1px white;
 }
 
-aside,
-.center {
-}
-
 header {
   background-color: #FF6666;
 }
@@ -62,9 +58,30 @@ footer {
 }
 
 #section-1 .right {
-  width: 100px;
+  width: 150px;
 }
 
 #section-1 .center {
   width: 400px;
+}
+
+#section-2 .left {
+  width: 100px;
+}
+
+#section-2 .right {
+  width: 150px;
+}
+
+#section-2 .left {
+  float: left;
+}
+
+#section-2 .right {
+  float: right;
+}
+
+#section-2 .center {
+  margin-left: 150px;
+  margin-right: 200px;
 }
