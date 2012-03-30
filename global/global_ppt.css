@@ -4,6 +4,12 @@ body {
   text-shadow: 1px 1px 1px gray;
 }
 
+::selection {
+  color: white;
+  background-color: #333333;
+  text-shadow: 1px 1px 1px #E6E6E6;
+}
+
 a {
   color: #FF6600;
   text-decoration: none;
@@ -71,6 +77,7 @@ h1 {
   -webkit-transform: translateZ(-50px);
 }
 
+ol,
 ul {
   text-align: left;
 }

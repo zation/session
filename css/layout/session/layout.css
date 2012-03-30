@@ -1,0 +1,39 @@
+.hide {
+  display: none;
+}
+
+.container,
+aside,
+.center,
+header,
+footer {
+  padding: 10px;
+  margin: 10px;
+}
+
+.container {
+  border: 2px solid #B3B3B3;
+  text-shadow: 1px 1px 1px white;
+}
+
+header {
+  background-color: #FF6666;
+}
+
+footer {
+  background-color: #FF6FCF;
+}
+
+.left {
+  background-color: #CCFF66;
+  width: 100px;
+}
+
+.right {
+  background-color: #FFCC66;
+  width: 150px;
+}
+
+.center {
+  background-color: #66CCFF;
+}

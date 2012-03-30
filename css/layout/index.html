@@ -8,28 +8,35 @@
 <body>
 
 <div id="impress">
-  <div id="title" class="step">
+  <div id="title" class="step" data-scale="2" data-y="-600">
     <h1>
-      <span class="back">Let's get a</span>
+      <span class="back">Let's get the</span>
       Holy Grail
       <img class="grail" src="img/grail.jpg">
       <span class="front">by CSS</span>
     </h1>
-    <span class="small">and after all you can ...</span>
+  </div>
+  
+  <div id="holy-grail" class="step" data-x="1800">
+    And after all, you can...
+    <h2>Have a nice blog layout!</h2>
   </div>
 
-  <div id="practise" class="step" data-x="1000">
-    <h2>Have a nice blog layout</h2>
+  <div id="practise" class="step" data-x="1800" data-y="150" data-scale="0.5">
     <a target="_blank" href="http://www.lordlikely.com/">
       <img src="img/Lord_Likely.jpg">
     </a>
     <a target="_blank" href="http://rin-wendy.com/">
       <img src="img/Rin_Wendy.jpg">
     </a>
+    <a target="_blank" href="http://user.qzone.qq.com/">
+      <img src="img/qzone.png">
+    </a>
   </div>
 
-  <div id="float" class="step" data-x="2000">
+  <div id="float" class="step" data-x="1800" data-y="-1000">
     <h2>What's CSS Float?</h2>
+
     <ul>
       <li>
         Only left or right, not up and down.
@@ -47,12 +54,49 @@
         If an element is floated to the right, a following text flows around it, to the left.
       </li>
     </ul>
-    <a href="http://www.qianduan.net/about-float.html">
+    <a target="_blank" href="http://www.qianduan.net/about-float.html">
       Something more...
     </a>
   </div>
 
-  <div id="section-1" class="step" data-x="3000">
+  <div id="float-example" class="step" data-x="2200" data-y="-1100" data-scale="0.3">
+    <h2>Float example</h2>
+
+    <article class="float-example">
+      Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+      <div id="float-left">
+        I float to left
+      </div>
+      magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+      <div id="float-right">
+        I float to right
+      </div>
+      nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+      molestie consequat.
+    </article>
+  </div>
+
+  <div id="begin-practise" class="step" data-x="-1950" data-y="0" data-scale="1.5">
+    <h2>
+      Let's practise!
+    </h2>
+    <ol>
+      <li>
+        git clone git@github.com:zation/session.git
+      </li>
+      <li>
+        vim css/layout/session/layout.html css/layout/session/layout.html
+      </li>
+      <li>
+        open css/layout/session/layout.html
+      </li>
+      <li>
+        write and refresh to catch the Holy Grail!
+      </li>
+    </ol>
+  </div>
+
+  <div id="section-1" class="step" data-x="-2500" data-y="800" data-scale="0.5">
     <h2>A simple 3 columns layout</h2>
 
     <section class="container">
@@ -64,13 +108,13 @@
           width: 100px
         </aside>
         <div class="center">
-          width: 400px<br>
-          width: 400px<br>
-          width: 400px<br>
-          width: 400px<br>
-          width: 400px<br>
-          width: 400px<br>
-          width: 400px<br>
+          width: 300px<br>
+          width: 300px<br>
+          width: 300px<br>
+          width: 300px<br>
+          width: 300px<br>
+          width: 300px<br>
+          width: 300px<br>
         </div>
         <aside class="right">
           width: 150px
@@ -82,7 +126,7 @@
     </section>
   </div>
 
-  <div id="section-2" class="step" data-x="4000">
+  <div id="section-2" class="step" data-x="-2000" data-y="800" data-scale="0.5">
     <h2>A more beautiful one</h2>
 
     <section class="container">
@@ -112,7 +156,7 @@
     </section>
   </div>
 
-  <div id="section-3" class="step" data-x="5000">
+  <div id="section-3" class="step" data-x="-1500" data-y="800" data-scale="0.5">
     <h2>The Holy Grail</h2>
 
     <section class="container">
@@ -120,20 +164,18 @@
         Header
       </header>
       <div class="content clear">
-        <div class="center">
+        <div class="center column">
           I'll be loaded first<br>
           width: 100%<br>
           width: 100%<br>
           width: 100%<br>
           width: 100%<br>
           width: 100%<br>
-          width: 100%<br>
-          width: 100%<br>
         </div>
-        <aside class="left">
+        <aside class="left column">
           width: 100px
         </aside>
-        <aside class="right">
+        <aside class="right column">
           width: 150px
         </aside>
       </div>
@@ -143,7 +185,88 @@
     </section>
   </div>
 
-  <div id="overview" class="step" data-scale="3" data-x="300"></div>
+  <div id="show-you" class="step" data-y="500" data-scale="2">
+    Are you caught the Holy Grail?<br>
+    If not, no problem.<br>
+    <h2>Let's catch it together!</h2>
+  </div>
+
+  <div id="procedure-1" class="step" data-x="-400" data-y="768" data-scale="0.5">
+    <section class="container">
+      <header>
+        Header
+      </header>
+      <div class="content clear">
+        <div class="center column">
+          I'll be loaded first<br>
+          width: 100%<br>
+        </div>
+        <aside class="left column">
+          width: 100px
+        </aside>
+        <aside class="right column">
+          width: 150px
+        </aside>
+      </div>
+      <footer>
+        Footer
+      </footer>
+    </section>
+  </div>
+
+  <div id="procedure-2" class="step" data-x="0" data-y="770" data-scale="0.5">
+    <section class="container">
+      <header>
+        Header
+      </header>
+      <div class="content clear">
+        <div class="center column">
+          I'll be loaded first<br>
+          width: 100%<br>
+          width: 100%<br>
+          width: 100%<br>
+          width: 100%<br>
+        </div>
+        <aside class="left column">
+          width: 100px
+        </aside>
+        <aside class="right column">
+          width: 150px
+        </aside>
+      </div>
+      <footer>
+        Footer
+      </footer>
+    </section>
+  </div>
+
+  <div id="procedure-3" class="step" data-x="400" data-y="770" data-scale="0.5">
+    <section class="container">
+      <header>
+        Header
+      </header>
+      <div class="content clear">
+        <div class="center column">
+          I'll be loaded first<br>
+          width: 100%<br>
+          width: 100%<br>
+          width: 100%<br>
+          width: 100%<br>
+        </div>
+        <aside class="left column">
+          width: 100px
+        </aside>
+        <aside class="right column">
+          width: 150px
+        </aside>
+      </div>
+      <footer>
+        Footer
+      </footer>
+    </section>
+  </div>
+
+  <div id="overview" class="step" data-scale="4"></div>
 </div>
 
 <script type="text/javascript" src="../../global/libs/impress.js"></script>

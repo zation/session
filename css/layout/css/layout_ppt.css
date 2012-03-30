@@ -2,14 +2,42 @@
   height: 180px;
 }
 
+#practise {
+  width: 1400px;
+}
+
 #practise a {
   display: inline-block;
   padding: 10px;
+  vertical-align: top;
+
 }
 
 #practise img {
-  width: 400px;
+  height: 250px;
   box-shadow: 0 1px 4px gray;
+}
+
+.float-example article {
+  text-align: left;
+}
+
+#float-left,
+#float-right {
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  line-height: 200px;
+  border: 2px solid #B3B3B3;
+  margin: 10px 20px;
+}
+
+#float-left {
+  float: left;
+}
+
+#float-right {
+  float: right;
 }
 
 .clear:after {
@@ -19,12 +47,27 @@
   clear: both;
 }
 
+.step-practise #holy-grail {
+  opacity: 1;
+}
+
+.step-procedure-1 #show-you,
+.step-procedure-2 #show-you,
+.step-procedure-3 #show-you {
+  opacity: 1;
+}
+
+.container,
 aside,
 .center,
 header,
 footer {
   padding: 10px;
   margin: 10px;
+}
+
+.container {
+  border: 2px solid #B3B3B3;
   text-shadow: 1px 1px 1px white;
 }
 
@@ -56,7 +99,7 @@ footer {
 }
 
 #section-1 .center {
-  width: 400px;
+  width: 300px;
 }
 
 #section-2 .left {
@@ -72,9 +115,9 @@ footer {
   margin-right: 200px;
 }
 
-#section-3 aside,
-#section-3 .center {
+#section-3 .column {
   float: left;
+  position: relative;
 }
 
 #section-3 .content {
@@ -86,10 +129,6 @@ footer {
   width: 100%;
 }
 
-#section-3 aside {
-  position: relative;
-}
-
 #section-3 .left {
   right: 170px;
   margin-left: -100%;
@@ -98,3 +137,44 @@ footer {
 #section-3 .right {
   margin-right: -100%;
 }
+
+#procedure-1 .center,
+#procedure-2 .center,
+#procedure-3 .center {
+  width: 100%;
+}
+
+#procedure-1 .column,
+#procedure-2 .column,
+#procedure-3 .column {
+  float: left;
+}
+
+#procedure-1 .content,
+#procedure-2 .content,
+#procedure-3 .content {
+  padding-left: 140px;
+  padding-right: 230px;
+}
+
+#procedure-2 .left {
+  margin-left: -100%;
+}
+
+#procedure-2 .right {
+  margin-right: -100%;
+}
+
+#procedure-3 .column {
+  position: relative;
+}
+
+#procedure-3 .left {
+  margin-left: -100%;
+  right: 170px;
+}
+
+#procedure-3 .right {
+  margin-right: -100%;
+}
+
