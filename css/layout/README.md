@@ -10,8 +10,9 @@ CSS所要解决的最重要的问题就是布局问题，上一讲中介绍了�
 
 ## Session 材料
 * [PPT](http://zation.github.com/session/css/layout/)
-* [Session练习代码](https://github.com/zation/session/tree/gh-pages/css/layout/session)
+* [Session练习代码](https://github.com/zation/session/tree/gh-pages/css/layout/practise)
 * [所有使用到的code](https://github.com/zation/session/tree/gh-pages/css/layout)
+* [圣杯布局的来源](http://www.alistapart.com/articles/holygrail/)
 
 ## Session 内容
 1. 欣赏当前一些好的三栏布局博客。
