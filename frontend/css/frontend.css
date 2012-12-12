@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  box-shadow: 0 5px 10px #999;
+}
+
+.emphasis {
+  color: #a00;
+}
+
+.light {
+  color: #666;
+}
+
+h1 {
+  font-size: 140px;
+}
+
+.front {
+  font-size: 50px;
+  line-height: 100px;
+  -webkit-transform: translateZ(-50px);
+}
+
+.back {
+  font-size: 40px;
+  line-height: 100px;
+  -webkit-transform: translateZ(-100px);
+}
