@@ -1,10 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
-  width: 100%;
   box-shadow: 0 5px 10px #999;
 }
 
 .emphasis {
   color: #a00;
+}
+
+.differ {
+  color: #FF6600;
 }
 
 .light {
@@ -25,4 +32,94 @@ h1 {
   font-size: 40px;
   line-height: 100px;
   -webkit-transform: translateZ(-100px);
+}
+
+@-webkit-keyframes question {
+    from {-webkit-transform: rotate(-30deg);}
+    to {-webkit-transform: rotate(30deg);}
+}
+
+.active .question,
+.step-overview .question {
+  visibility: visible;
+}
+
+.question {
+  visibility: hidden;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  top: 8px;
+  font-size: 90px;
+  color: #a00;
+  -webkit-transform-origin: 15% 75%;
+  -webkit-animation: question 1s infinite alternate;
+}
+
+#trends img {
+  height: 240px;
+}
+
+.trend {
+  position: relative;
+}
+
+.trend span {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
+
+.trend .frontend {
+  top: 50px;
+}
+
+#salary {
+  width: 1200px;
+}
+
+#salary img {
+  height: 750px;
+}
+
+@-webkit-keyframes arrow {
+    from {-webkit-transform: rotate(180deg) rotateX(-30deg);}
+    to {-webkit-transform: rotate(180deg) rotateX(30deg);}
+}
+
+#salary .arrow {
+  position: absolute;
+  top: -5px;
+  margin-left: 10px;
+  -webkit-animation: arrow 1s infinite alternate;
+  font-size: 50px;
+  color: #a00;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.previous {
+  border: 5px solid #666;
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.now {
+  margin: 0 auto;
+}
+
+.now ul {
+  display: inline-block;
+  vertical-align: middle;
+  border: 5px solid #666;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
 }
