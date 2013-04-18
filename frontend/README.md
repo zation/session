@@ -47,7 +47,7 @@
 * [http://www.milwaukeepolicenews.com/](http://www.milwaukeepolicenews.com/)：世界上最好的警察网站，使用了视差滚动技术。
 * [http://foodsense.is/](http://foodsense.is/)：一个在任何设备、屏幕分辨率下都有非常好的使用体验的网站，使用了响应式设计技术。
 * [http://chanyouji.com/](http://chanyouji.com/)：蝉游记，国内一个很好的旅游图片分享网站，用户体验出色。
-* [http://zation.free.bg/](http://zation.free.bg/)：我的个人网站。
+* [http://zation.me](http://zation.me/)：我的个人博。
 
 ###联系方式
 * 微博：[http://weibo.com/zation1](http://weibo.com/zation1)
